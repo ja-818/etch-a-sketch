@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-a-sketch</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bod">
+  <header>
+    <h1>Click on the board to unleash your creativity!</h1>
+  </header>
+  <div class="main">
+    <div class="left">
+      <button class="drawButton">Draw</button>
+      <button class="erraseButton">Errase</button>
+      <button class="restartButton">Restart</button>
+      <div class="gridControls">
+        <input type="range" min="2" max="64" class="gridRange" value="16">
+        <p><span class="demo1"></span> x <span class="demo2"></span></p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="gridContainer"></div>
+    </div>
+  </div>
+  <footer>Created by <a href="https://github.com/ja-818">Julián Arango</a></footer>
+</body>
+</html>
